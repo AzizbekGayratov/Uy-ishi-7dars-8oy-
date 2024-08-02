@@ -24,10 +24,7 @@ export default async function ProductsPage() {
         <ul className="">
           {data.map((product: ProductProp) => (
             <li key={product.id}>
-              <Link
-                href={`/dashboard/products/${product.id}`}
-                className="block hover:underline transition-all hover:text-slate-200"
-              >
+              <Link href={`/dashboard/${product.id}`}>
                 <p>{product.title}</p>
               </Link>
             </li>

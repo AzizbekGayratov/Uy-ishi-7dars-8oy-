@@ -39,7 +39,7 @@ export default async function UsersPage() {
           {data.map((user: UserProp) => (
             <li key={user.id}>
               <Link
-                href={`/dashboard/users/${user.id}`}
+                href={`/dashboard/${user.id}`}
                 className="w-full block py-[8px] px-[16px] shadow-md hover:bg-slate-300 hover:text-neutral-900 transition-all rounded-lg hover:underline"
               >
                 <p>

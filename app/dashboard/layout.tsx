@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function layout({
+export default function DashboardLayout({
   children,
   users,
   products,
